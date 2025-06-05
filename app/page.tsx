@@ -18,7 +18,9 @@ export default function Home() {
       <br />
       <a href="/mañana">Anchor tag with non-ascii chars (works as expected)</a>
       <br />
-      <Link href="/dynamic-redirect">Link component to dynamic redirect</Link>
+      <Link href="/dynamic-redirect">
+        Link component to dynamic redirect (works as expected)
+      </Link>
       <br />
       <a href="/dynamic-redirect">Anchor tag to dynamic redirect</a>
       <br />
