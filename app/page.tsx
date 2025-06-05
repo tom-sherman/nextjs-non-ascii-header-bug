@@ -12,13 +12,19 @@ export default function Home() {
     >
       <button>Go</button>
       <br />
-      <Link href="/mañana">Link component</Link>
+      <Link href="/mañana">
+        Link component with non-ascii chars (works fine)
+      </Link>
       <br />
-      <a href="/mañana">Anchor tag</a>
+      <a href="/mañana">Anchor tag with non-ascii chars</a>
       <br />
-      <Link href="/redirect">Link to redirect</Link>
+      <Link href="/dynamic-redirect">Link component to dynamic redirect</Link>
       <br />
-      <a href="/redirect">Anchor tag to redirect</a>
+      <a href="/dynamic-redirect">Anchor tag to dynamic redirect</a>
+      <br />
+      <Link href="/static-redirect">Link component to static redirect</Link>
+      <br />
+      <a href="/static-redirect">Anchor tag to static redirect</a>
     </form>
   );
 }
