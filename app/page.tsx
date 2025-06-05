@@ -6,7 +6,7 @@ export default function Home() {
     <form
       action={async () => {
         "use server";
-        redirect("mañana.com");
+        redirect("/mañana.com");
       }}
     >
       <button>Go</button>
