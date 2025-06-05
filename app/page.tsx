@@ -15,6 +15,10 @@ export default function Home() {
       <Link href="/mañana">Link component</Link>
       <br />
       <a href="/mañana">Anchor tag</a>
+      <br />
+      <Link href="/redirect">Link to redirect</Link>
+      <br />
+      <a href="/redirect">Anchor tag to redirect</a>
     </form>
   );
 }
