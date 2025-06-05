@@ -7,14 +7,14 @@ export default function Home() {
     <form
       action={async () => {
         "use server";
-        redirect("/mañana.com");
+        redirect("/mañana");
       }}
     >
       <button>Go</button>
       <br />
-      <Link href="/mañana.com">Link component</Link>
+      <Link href="/mañana">Link component</Link>
       <br />
-      <a href="/mañana.com">Anchor tag</a>
+      <a href="/mañana">Anchor tag</a>
     </form>
   );
 }
